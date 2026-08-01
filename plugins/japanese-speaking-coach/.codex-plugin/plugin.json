@@ -1,0 +1,26 @@
+{
+  "name": "japanese-speaking-coach",
+  "version": "0.1.0",
+  "description": "Voice-first Japanese speaking rehearsal with coaching in the learner's chosen first language.",
+  "author": {
+    "name": "Timothy Huang"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Japanese Speaking Coach",
+    "shortDescription": "Rehearse spoken Japanese with coaching in your language.",
+    "longDescription": "Practice real Japanese interactions, explanations, and spoken summaries through attempt, focused repair, replay, and variation. Choose any coaching language while keeping the speaking task in Japanese.",
+    "developerName": "Japanese Speaking Coach",
+    "category": "Education",
+    "capabilities": ["Interactive"],
+    "defaultPrompt": [
+      "Rehearse a Japanese phone call and coach me in Traditional Chinese.",
+      "Help me explain an idea in Japanese and coach me in Spanish.",
+      "Recommend a Japanese speaking task and use my language for feedback."
+    ],
+    "brandColor": "#101A49",
+    "composerIcon": "./assets/icon-small.png",
+    "logo": "./assets/icon-large.png"
+  }
+}
